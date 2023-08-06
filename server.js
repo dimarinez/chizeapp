@@ -11,7 +11,7 @@ const apnProvider = new apn.Provider({
     keyId: 'ZURVGBDD3L', // Replace with your Key ID
     teamId: '98WJP6S25J', // Replace with your Team ID
   },
-  production: true, // Change to true for production environment
+  production: false, // Change to true for production environment
 });
 
 app.use(express.json());
