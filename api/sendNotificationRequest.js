@@ -1,7 +1,17 @@
 const apn = require('apn');
+const path = require('path');
+
+// Get the APNS authentication key path from the environment variable
+const apnsAuthKeyPath = path.resolve(__dirname, process.env.APNS);
+
+// Resolve the file path
+const resolvedPath = path.resolve(apnsAuthKeyPath);
+
+console.log('Resolved File Path:', resolvedPath);
+
 const apnProvider = new apn.Provider({
   token: {
-    key: process.env.APNS, // Replace with your APNs Authentication Key path
+    key: resolvedPath, // Replace with your APNs Authentication Key path
     keyId: 'ZURVGBDD3L', // Replace with your Key ID
     teamId: '98WJP6S25J', // Replace with your Team ID
   },
