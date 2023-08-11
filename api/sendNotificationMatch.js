@@ -14,25 +14,22 @@ const apnProvider = new apn.Provider({
 });
 
 module.exports = async (req, res) => {
-  const deviceToken = req.body.record.receiver_deviceToken;
+  const user1DeviceToken = req.body.record.user1_deviceToken;
+  const user2DeviceToken = req.body.record.user2_deviceToken;
+  const deviceTokens = [user1DeviceToken, user2DeviceToken];
 
-  console.log(deviceToken);
-
-  if (!deviceToken) {
+  if (!deviceTokens) {
     return res.status(400).json({ error: 'Device token is required' });
   }
 
   const notification = new apn.Notification();
-  notification.payload = {
-    screen: 'Requests',
-  };
   notification.topic = 'org.reactjs.native.example.CoffeeMeet';
   notification.title = 'Chize';
-  notification.body = 'Someone winked at you!';
+  notification.body = 'Someone matched with you!';
   notification.sound = 'default';
 
   try {
-    const result = await apnProvider.send(notification, deviceToken);
+    const result = await apnProvider.send(notification, deviceTokens);
     console.log('Notification sent:', result);
     console.log(result.failed[0].response);
     res.status(200).json({ success: true });
