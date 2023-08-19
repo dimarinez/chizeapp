@@ -16,8 +16,6 @@ const apnProvider = new apn.Provider({
 module.exports = async (req, res) => {
   const deviceToken = req.body.record.receiver_deviceToken;
 
-  console.log(deviceToken);
-
   if (!deviceToken) {
     return res.status(400).json({ error: 'Device token is required' });
   }
