@@ -24,7 +24,7 @@ module.exports = async (req, res) => {
   notification.payload = {
     screen: 'Requests',
   };
-  notification.topic = 'org.reactjs.native.example.CoffeeMeet';
+  notification.topic = 'org.reactjs.native.example.Chize';
   notification.title = 'Chize';
   notification.body = 'Someone winked at you!';
   notification.sound = 'default';
