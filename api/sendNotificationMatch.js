@@ -34,7 +34,6 @@ module.exports = async (req, res) => {
   try {
     const result = await apnProvider.send(notification, deviceTokens);
     console.log('Notification sent:', result);
-    console.log(result.failed[0].response);
     res.status(200).json({ success: true });
   } catch (error) {
     console.error('Error sending notification:', error);
