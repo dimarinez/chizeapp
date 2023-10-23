@@ -23,6 +23,9 @@ module.exports = async (req, res) => {
   }
 
   const notification = new apn.Notification();
+  notification.payload = {
+    screen: 'Matches',
+  };
   notification.topic = 'org.reactjs.native.example.Chize';
   notification.title = 'Chize';
   notification.body = 'Someone matched with you!';
