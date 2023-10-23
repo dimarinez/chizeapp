@@ -10,7 +10,7 @@ const apnProvider = new apn.Provider({
     keyId: 'ZURVGBDD3L', // Replace with your Key ID
     teamId: '98WJP6S25J', // Replace with your Team ID
   },
-  production: false, // Change to true for production environment
+  production: true, // Change to true for production environment
 });
 
 module.exports = async (req, res) => {
