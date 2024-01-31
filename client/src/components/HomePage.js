@@ -6,6 +6,7 @@ const HomePage = () => {
     <div>
       <h1>In progress...</h1>
       <p>For privacy policy, go here: <Link to="/privacy-policy">Privacy Policy</Link></p>
+      <p>For terms and conditions, go here: <Link to="/terms-conditions">Terms & Conditions</Link></p>
     </div>
   );
 };
