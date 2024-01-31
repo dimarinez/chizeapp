@@ -26,7 +26,7 @@ module.exports = async (req, res) => {
   };
   notification.topic = 'org.reactjs.native.example.Chize';
   notification.title = 'Chize';
-  notification.body = 'Someone winked at you!';
+  notification.body = 'Someone waved at you!';
   notification.sound = 'default';
 
   try {
