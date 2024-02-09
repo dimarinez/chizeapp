@@ -17,18 +17,17 @@ const PrivacyPolicy = () => {
         <li>1. What Information Do We Collect?</li>
         <li>2. How Do We Use Your Information?</li>
         <li>3. Will Your Information Be Shared With Anyone?</li>
-        <li>4. Do We Use Cookies And Other Tracking Technologies?</li>
-        <li>5. Is Your Information Transferred Internationally?</li>
-        <li>6. What Is Our Stance On Third-Party Websites?</li>
-        <li>7. How Long Do We Keep Your Information?</li>
-        <li>8. How Do We Keep Your Information Safe?</li>
-        <li>9. Do We Collect Information From Minors?</li>
-        <li>10. What Are Your Privacy Rights?</li>
-        <li>11. Controls For Do-Not-Track Features</li>
-        <li>12. Do California Residents Have Specific Privacy Rights?</li>
-        <li>13. Do We Make Updates To This Policy?</li>
-        <li>14. How Can You Contact Us About This Policy?</li>
-        <li>15. User Interactions and Meetups in Chize App</li>
+        <li>4. Is Your Information Transferred Internationally?</li>
+        <li>5. What Is Our Stance On Third-Party Websites?</li>
+        <li>6. How Long Do We Keep Your Information?</li>
+        <li>7. How Do We Keep Your Information Safe?</li>
+        <li>8. Do We Collect Information From Minors?</li>
+        <li>9. What Are Your Privacy Rights?</li>
+        <li>10. Controls For Do-Not-Track Features</li>
+        <li>11. Do California Residents Have Specific Privacy Rights?</li>
+        <li>12. Do We Make Updates To This Policy?</li>
+        <li>13. How Can You Contact Us About This Policy?</li>
+        <li>14. User Interactions and Meetups in Chize App</li>
       </ul>
 
       <h3>1. What Information Do We Collect?</h3>
@@ -79,36 +78,21 @@ Legal Obligations: We may disclose your information where we are legally require
 Vital Interests: We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person, and illegal activities, or as evidence in litigation in which we are involved.
       </p>
 
-      <h3>4. Do We Use Cookies And Other Tracking Technologies?</h3>
-      <p>
-        In Short: We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.
-        <br />
-        We may process or share your data that we hold based on the following legal basis:
-        <br />
-        Consent: We may process your data if you have given us specific consent to use your personal information for a specific purpose.
-        Legitimate Interests: We may process your data when it is reasonably necessary to achieve our legitimate business interests.
-        Performance of a Contract: Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.
-        <br />
-        Legal Obligations: We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).
-        Vital Interests: We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person, and illegal activities, or as evidence in litigation in which we are involved.
-      </p>
-
-
-      <h3>5. Is Your Information Transferred Internationally?</h3>
+      <h3>4. Is Your Information Transferred Internationally?</h3>
       <p>
         In Short: We may transfer, store, and process your information in countries other than your own.
         <br />
         If you are a resident in the European Economic Area (EEA) or United Kingdom (UK), then these countries may not necessarily have data protection laws or other similar laws as comprehensive as those in your country. We will, however, take all necessary measures to protect your personal information in accordance with this privacy policy and applicable law.
       </p>
 
-      <h3>6. What Is Our Stance On Third-Party Websites?</h3>
+      <h3>5. What Is Our Stance On Third-Party Websites?</h3>
       <p>
         In Short: We are not responsible for the safety of any information that you share with third-party providers who advertise, but are not affiliated with, our app.
         <br />
         The App may contain advertisements from third parties that are not affiliated with us and which may link to other websites, online services, or mobile applications. We cannot guarantee the safety and privacy of data you provide to any third parties. Any data collected by third parties is not covered by this privacy policy. We are not responsible for the content or privacy and security practices and policies of any third parties, including other websites, services, or applications that may be linked to or from the App. You should review the policies of such third parties and contact them directly to respond to your questions.
       </p>
 
-      <h3>7. How Long Do We Keep Your Information?</h3>
+      <h3>6. How Long Do We Keep Your Information?</h3>
       <p>
         In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this privacy policy unless otherwise required by law.
         <br />
@@ -117,7 +101,7 @@ Vital Interests: We may disclose your information where we believe it is necessa
         When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
       </p>
 
-      <h3>8. How Do We Keep Your Information Safe?</h3>
+      <h3>7. How Do We Keep Your Information Safe?</h3>
       <p>
         In Short: We aim to protect your personal information through a system of organizational and technical security measures.
         <br />
@@ -125,14 +109,14 @@ Vital Interests: We may disclose your information where we believe it is necessa
         
       </p>
 
-      <h3>9. Do We Collect Information From Minors?</h3>
+      <h3>8. Do We Collect Information From Minors?</h3>
       <p>
         In Short: We do not knowingly collect data from or market to children under the age of 18.
         <br />
         We do not knowingly solicit data from or market to children under the age of 18. By using the App, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the App. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at feedback@chizeapp.com.
       </p>
 
-      <h3>10. What Are Your Privacy Rights?</h3>
+      <h3>9. What Are Your Privacy Rights?</h3>
       <p>
         In Short: You may review, change, or terminate your account at any time.
         <br />
@@ -157,12 +141,12 @@ Vital Interests: We may disclose your information where we believe it is necessa
         Contact us using the provided contact information.
       </p>
 
-      <h3>11. Controls For Do-Not-Track Features</h3>
+      <h3>10. Controls For Do-Not-Track Features</h3>
       <p>
         Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy policy.
       </p>
 
-      <h3>12. Do California Residents Have Specific Privacy Rights?</h3>
+      <h3>11. Do California Residents Have Specific Privacy Rights?</h3>
       <p>
         In Short: Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.
         <br />
@@ -185,21 +169,21 @@ What are your privacy rights?
 If you are a resident of California, you are granted specific rights regarding access to your personal information. California Civil Code Section 1798.83 permits you to request information regarding the disclosure of your personal information by Chize to third parties for the third parties' direct marketing purposes. To request such information, please contact us using the contact information provided below
       </p>
 
-      <h3>13. Do We Make Updates To This Policy?</h3>
+      <h3>12. Do We Make Updates To This Policy?</h3>
       <p>
         In Short: Yes, we will update this policy as necessary to stay compliant with relevant laws.
 
         We may update this privacy policy from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy policy, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy policy frequently to be informed of how we are protecting your information.
       </p>
     
-      <h3>14. How Can You Contact Us About This Policy?</h3>
+      <h3>13. How Can You Contact Us About This Policy?</h3>
       <p>
         If you have questions or comments about this policy, you may email us at feedback@chizeapp.com.
         
         Based on the laws of some countries, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please send an email to feedback@chizeapp.com.
       </p>
 
-      <h3>15. User Interactions and Meetups in Chize App</h3>
+      <h3>14. User Interactions and Meetups in Chize App</h3>
       <p>
         In Short: We are not responsible for the actions of users who interact outside of our App, nor for the outcomes of any meetings facilitated through our App.
         <br />
