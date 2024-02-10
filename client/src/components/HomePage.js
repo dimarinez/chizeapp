@@ -9,7 +9,7 @@ import {
   Link,
   Stack,
   Grid,
-  Button
+  Button,
 } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import '@fontsource/roboto/300.css';
@@ -17,7 +17,6 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-// Create a theme instance.
 const theme = createTheme({
   palette: {
     customTypography: {
@@ -73,13 +72,13 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           fontFamily: '"Playfair Display", serif',
-          color: "#fff", // White color for the links
+          color: "#fff",
         },
       },
     },
     MuiTypography: {
       styleOverrides: {
-        h7: { // This is a custom name, it won't work out of the box like h1-h6
+        h7: {
           fontFamily: 'Roboto, sans-serif',
           fontWeight: 700,
           fontSize: '12px',
@@ -100,7 +99,7 @@ const HomePage = () => {
             <Link
               component={RouterLink}
               to="/privacy-policy"
-              sx={{ mr: 2, ml: '24px' }} // Added marginLeft here
+              sx={{ mr: 2, ml: '24px' }}
             >
               Privacy Policy
             </Link>
@@ -115,7 +114,7 @@ const HomePage = () => {
             <Link
               component={RouterLink}
               to="/privacy-policy"
-              sx={{ mr: 2, ml: '24px' }} // Added marginLeft here
+              sx={{ mr: 2, ml: '24px' }}
             >
               Privacy Policy
             </Link>
@@ -164,11 +163,11 @@ const HomePage = () => {
   variant="contained"
   href="#how"
   sx={{
-    backgroundColor: 'black', // Solid black background color
-    color: 'white', // Text color
-    borderRadius: '50px', // Pill shape, you can adjust the value as needed
+    backgroundColor: 'black',
+    color: 'white',
+    borderRadius: '50px',
     '&:hover': {
-      backgroundColor: 'rgba(0, 0, 0, 0.75)', // Keep the background black even when hovering
+      backgroundColor: 'rgba(0, 0, 0, 0.75)',
     }
   }}
 >
@@ -250,6 +249,19 @@ const HomePage = () => {
     </a>
         </Box>
       </Container>
+      <Box component="footer" sx={{
+        bgcolor: 'black',
+        color: 'white',
+        py: 2,
+        px: 3,
+        mt: 'auto',
+      }}>
+        <Container maxWidth="lg">
+          <Typography variant="body2" color="inherit" sx={{textAlign: {xs: 'center', md: 'left'}}}>
+            © {new Date().getFullYear()} Chize LLC
+          </Typography>
+        </Container>
+      </Box>
     </ThemeProvider>
   );
 };
