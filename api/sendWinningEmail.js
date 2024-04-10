@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 
 // Your serverless function handler
-exports.handler = async (event) => {
+module.exports = async (req, res) => {
   // Setup Nodemailer transport
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
