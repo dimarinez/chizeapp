@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
     host: "smtp.gmail.com",
     secure: false,
     auth: {
-      user: process.env.EMAIL, // Your SMTP username
+      user: process.env.FROM_EMAIL, // Your SMTP username
       pass: process.env.EMAIL_PASSWORD, // Your SMTP password
     },
   });
